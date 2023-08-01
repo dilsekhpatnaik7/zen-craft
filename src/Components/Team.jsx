@@ -11,7 +11,7 @@ const Team = () => {
         <div><h1 className='text-4xl text-center font-serif font-semibold'>The Working Team</h1></div>
         <div className='text-center pt-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-10'>
-                <TeamCard photo={avinash} name='Mr. Avinash Kameswar Vanamali' />
+                <TeamCard photo={avinash} name='Mr. Avinash Kameswar' lastname='Vanamali' />
                 <TeamCard photo={piyush} name='Mr. Piyush Kumar Dash' />
             </div>
         </div>

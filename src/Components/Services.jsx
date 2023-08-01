@@ -1,8 +1,9 @@
 import React from 'react'
 import building from '../Assets/building.jpeg'
-import construction from '../Assets/construction.jpeg'
+import green from '../Assets/green.png'
 import model from '../Assets/3d.jpeg'
 import interior from '../Assets/interior.jpeg'
+import vastu from '../Assets/vastu.jpeg'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
@@ -13,9 +14,10 @@ const Services = () => {
         <div className='text-center mt-10 mx-auto'>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:gird-cols-1 gap-7 mx-auto'>
                 <ServiceCard photo={building} text='Building Designing' />
-                <ServiceCard photo={construction} text='Construction' />
+                <ServiceCard photo={green} text='Green Building Plans' />
                 <ServiceCard photo={model} text='3D CAD Modelling' />
                 <ServiceCard photo={interior} text='Interior Designing' />
+                <ServiceCard photo={vastu} text='Vastu' />
             </div>
         </div>
       </div>
