@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import './App.css'
 import Team from "./Components/Team";
 import Contact from "./Components/Contact";
+import Works from './Components/Works';
 // import Loader from "./Components/Loader"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Services/>
+        <Works/>
         <Team/>
         <Contact/>
     </div>

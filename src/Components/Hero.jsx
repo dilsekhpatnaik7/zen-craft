@@ -4,7 +4,7 @@ import main from '../Assets/mainlogo.png'
 const Hero = () => {
   return (
     <div>
-      <div className='flex flex-col justify-center'>
+      <div className='flex flex-col justify-center mx-6'>
         <div className='mt-12 text-center'>
             <img src={main} className='w-[100%] text-center'/>
         </div>
