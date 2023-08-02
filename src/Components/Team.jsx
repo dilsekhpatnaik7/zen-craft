@@ -8,7 +8,7 @@ const Team = () => {
   const ai = 'https://instagram.com/avinash_.vk?igshid=MzRlODBiNWFlZA==';
   const aw = `https://wa.me/918984627829?text=Hello Avinash, %20I'm%20interested%20in%20your%20ZenKraftDesignStudio%20service`;
   const pi = 'https://instagram.com/_.piyush._.badri._?igshid=MzRlODBiNWFlZA==';
-  const pw = `https://wa.me/918984627829?text=Hello%20Piyush, %20I'm%20interested%20in%20your%20ZenKraftDesignStudio%20service`;
+  const pw = `https://wa.me/917682925408?text=Hello%20Piyush, %20I'm%20interested%20in%20your%20ZenKraftDesignStudio%20service`;
 
 
   return (

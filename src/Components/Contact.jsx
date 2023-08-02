@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineMail, AiOutlineWhatsApp, AiOutlineInstagram} from 'react-icons/ai'
+import {AiOutlineMail, AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineMobile} from 'react-icons/ai'
 
 const Contact = () => {
   return (
@@ -20,6 +20,11 @@ const Contact = () => {
             </div>
         </div>
 
+        <div className='text-center mt-4'>
+            <h1 className='font-serif text-xl font-semibold pb-1'>Avinash: +91 89846 27829</h1>
+            <h1 className='font-serif text-xl font-semibold pb-1'>Piyush: +91 76829 25408</h1>
+        </div>
+        
         <div className='text-center mt-10 pb-10'>
             <h1 className='font-serif text-xl pb-1'>All Rights Reserved</h1>
             <h1 className='font-serif text-2xl font-semibold'>@ZenKraftDesignStudio</h1>
