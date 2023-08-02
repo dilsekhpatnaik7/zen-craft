@@ -8,7 +8,7 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='mt-20'>
+    <div className='mt-20 lg:mt-24 m-4 lg:m-12 p-8 rounded-2xl shadow-2xl bg-gray-200'>
       <div>
         <h1 className='text-4xl text-center font-serif font-semibold'>Services We Offer</h1>
         <div className='text-center mt-10 mx-auto'>
