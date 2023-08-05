@@ -11,9 +11,9 @@ const Contact = () => {
                 <AiOutlineMail size={30} className='cursor-pointer' onClick={() => {
                     window.open('mailto:zenkraftds@gmail.com')
                 }}/>
-                {/* <AiOutlineWhatsApp size={30} className='cursor-pointer' onClick={() => {
-                    window.open(`https://wa.me/918984627829?text=I'm%20interested%20in%20your%20service`)
-                }}/> */}
+                <AiOutlineWhatsApp size={30} className='cursor-pointer' onClick={() => {
+                    window.open(`https://wa.me/917682082193?text=I'm%20interested%20in%20your%20service`)
+                }}/>
                 <AiOutlineInstagram size={30} className='cursor-pointer' onClick={() => {
                     window.open('https://instagram.com/zenkraftds?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D')
                 }}/>
