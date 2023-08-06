@@ -4,6 +4,7 @@ import green from '../Assets/green.png'
 import model from '../Assets/3d.jpeg'
 import interior from '../Assets/interior.jpeg'
 import vastu from '../Assets/vastu.jpeg'
+import estimate from '../Assets/estimate.jpg'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
@@ -18,6 +19,7 @@ const Services = () => {
                 <ServiceCard photo={model} text='3D CAD Modelling' />
                 <ServiceCard photo={interior} text='Interior Designing' />
                 <ServiceCard photo={vastu} text='Vastu' />
+                <ServiceCard photo={estimate} text='Estimate' />
             </div>
         </div>
       </div>

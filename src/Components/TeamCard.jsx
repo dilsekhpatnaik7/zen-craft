@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineWhatsApp, AiOutlineInstagram} from 'react-icons/ai'
+import {AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineLinkedin} from 'react-icons/ai'
 
 const TeamCard = (props) => {
   return (
@@ -14,6 +14,9 @@ const TeamCard = (props) => {
                   <div className='flex gap-8'>
                     <AiOutlineWhatsApp size={27} className='cursor-pointer' onClick={() => {
                       window.open(props.wp)
+                    }}/>
+                    <AiOutlineLinkedin size={27} className='cursor-pointer' onClick={() => {
+                      window.open(props.lk)
                     }}/>
                     <AiOutlineInstagram size={27} className='cursor-pointer' onClick={() => {
                       window.open(props.ig)
