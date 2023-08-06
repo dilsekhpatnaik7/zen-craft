@@ -27,7 +27,7 @@ const Team = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-0 gap-10'>
                 <TeamCard photo={avinash} name='Avinash Kameswar' lastname='Vanamali' degree='B.Tech (Civil)' ig={ai} wp={aw} lk={al}/>
                 <TeamCard photo={piyush} name='Piyush Kumar Dash' degree='Diploma/ B.Tech (Civil)' ig={pi} wp={pw} lk={pl}/>
-                <TeamCard photo={prabin} name='Prabin Kumar Satapathy' degree='B.Tech (Civil)' ig={prabini} wp={prabinw} lk={prabinl}/>
+                <TeamCard photo={prabin} name='Prabin Kumar'lastname='Satapathy' degree='B.Tech (Civil)' ig={prabini} wp={prabinw} lk={prabinl}/>
             </div>
         </div>
       </div>
