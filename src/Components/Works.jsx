@@ -9,6 +9,10 @@ import e from '../Assets/p21.png'
 import f from '../Assets/p22.png'
 import g from '../Assets/p23.png'
 import h from '../Assets/p24.jpg'
+import i from '../Assets/091.jpg'
+import j from '../Assets/092.jpg'
+import k from '../Assets/093.jpg'
+import l from '../Assets/094.png'
 
 const Works = () => {
   return (
@@ -25,6 +29,10 @@ const Works = () => {
                 <WorkCard photo={f}/>
                 <WorkCard photo={g}/>
                 <WorkCard photo={h}/>
+                <WorkCard photo={i}/>
+                <WorkCard photo={j}/>
+                <WorkCard photo={k}/>
+                <WorkCard photo={l}/>
             </div>
         </div>
       </div>
