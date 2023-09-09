@@ -33,6 +33,14 @@ const Contact = () => {
             <h1 className='font-serif text-xl pb-1'>All Rights Reserved</h1>
             <h1 className='font-serif text-2xl font-semibold'>@ZenKraftDesignStudio</h1>
         </div>
+
+        <div className='text-center mt-10 pb-7'>
+            <h1 className='font-serif text-xl pb-1'>Designed and Maintained By,</h1>
+            <h1 className='font-serif text-xl font-semibold cursor-pointer' onClick={() => {
+              window.open("https://www.linkedin.com/in/dilsekhpatnaik7/")
+            }}>@DilsekhPatnaik</h1>
+        </div>
+
       </div>
     </div>
   )

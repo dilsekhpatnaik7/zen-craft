@@ -7,6 +7,7 @@ import './App.css'
 import Team from "./Components/Team";
 import Contact from "./Components/Contact";
 import Works from './Components/Works';
+import Videos from './Components/Videos';
 // import Loader from "./Components/Loader"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <div className="bg-gradient-to-r from-[#dee2e6] to-[#adb5bd] h-max-content">
         <Navbar/>
         <Hero/>
+        {/* <Videos/> */}
         <Services/>
         <Works/>
         <Team/>

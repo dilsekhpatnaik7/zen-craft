@@ -20,15 +20,15 @@ const Works = () => {
       <div>
         <h1 className='text-4xl text-center font-serif font-semibold'>Our Recent Works</h1>
         <div className='text-center mt-10 mx-auto'>
-            <div className='grid lg:grid-cols-4 gap-7 mx-auto'>
+            <div className='grid lg:grid-cols-3 gap-7 mx-auto'>
                 <WorkCard photo={a}/>
                 <WorkCard photo={b}/>
                 <WorkCard photo={c}/>
                 <WorkCard photo={d}/>
-                <WorkCard photo={e}/>
+                {/* <WorkCard photo={e}/> */}
                 <WorkCard photo={f}/>
                 <WorkCard photo={g}/>
-                <WorkCard photo={h}/>
+                {/* <WorkCard photo={h}/> */}
                 <WorkCard photo={i}/>
                 <WorkCard photo={j}/>
                 <WorkCard photo={k}/>
