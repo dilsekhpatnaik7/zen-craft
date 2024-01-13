@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className='mt-20 lg:mt-24 m-4 lg:m-12 p-8 rounded-2xl shadow-2xl bg-gray-200'>
       <div>
-        <h1 className='text-4xl text-center font-serif font-semibold'>Services We Offer</h1>
+        <h1 className='text-4xl text-center font-semibold'>Services We Offer</h1>
         <div className='text-center mt-10 mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:gird-cols-1 gap-7 mx-auto'>
                 <ServiceCard photo={building} text='Building Designing' />

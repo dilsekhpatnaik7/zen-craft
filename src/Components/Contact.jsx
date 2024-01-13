@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='mt-20' id='contact'>
       <div>
-        <h1 className='text-4xl text-center font-serif font-semibold'>Contact Us</h1>
+        <h1 className='text-4xl text-center font-semibold'>Contact Us</h1>
         <div>
             <div className='flex justify-center gap-9 mt-4'>
                 <AiOutlineMail size={30} className='cursor-pointer' onClick={() => {
@@ -24,20 +24,20 @@ const Contact = () => {
         </div>
 
         <div className='text-center mt-4'>
-            <h1 className='font-serif text-xl font-semibold pb-1'>Avinash: +91 89846 27829</h1>
-            <h1 className='font-serif text-xl font-semibold pb-1'>Piyush: +91 76829 25408</h1>
-            <h1 className='font-serif text-xl font-semibold pb-1'>Prabin: +91 93485 79460</h1>
+            <h1 className=' text-xl font-semibold pb-1'>Avinash: +91 89846 27829</h1>
+            <h1 className=' text-xl font-semibold pb-1'>Piyush: +91 76829 25408</h1>
+            <h1 className=' text-xl font-semibold pb-1'>Prabin: +91 93485 79460</h1>
         </div>
         
         <div className='text-center mt-10 pb-10'>
-            <h1 className='font-serif text-xl pb-1'>All Rights Reserved</h1>
-            <h1 className='font-serif text-2xl font-semibold'>@ZenKraftDesignStudio</h1>
+            <h1 className=' text-xl pb-1'>All Rights Reserved</h1>
+            <h1 className=' text-2xl font-semibold'>@ZenKraftDesignStudio</h1>
         </div>
 
         <div className='text-center mt-10 pb-7'>
-            <h1 className='font-serif text-xl pb-1'>Designed and Maintained By,</h1>
-            <h1 className='font-serif text-xl font-semibold cursor-pointer' onClick={() => {
-              window.open("https://www.linkedin.com/in/dilsekhpatnaik7/")
+            <h1 className=' text-xl pb-1'>Designed and Maintained By,</h1>
+            <h1 className=' text-xl font-semibold cursor-pointer' onClick={() => {
+              window.open("https://dilsekhpatnaik.me/")
             }}>@DilsekhPatnaik</h1>
         </div>
 

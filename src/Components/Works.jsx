@@ -16,11 +16,15 @@ import l from '../Assets/094.png'
 
 const Works = () => {
   return (
-    <div className='mt-20 lg:mt-24 m-4 lg:m-12 p-8 rounded-2xl shadow-2xl bg-gray-200'>
+    <div className='h-auto mt-20 lg:mt-24 m-4 lg:m-12 p-8 rounded-2xl shadow-2xl bg-gray-200'>
       <div>
-        <h1 className='text-4xl text-center font-serif font-semibold'>Our Recent Works</h1>
-        <div className='text-center mt-10 mx-auto'>
-            <div className='grid lg:grid-cols-3 gap-7 mx-auto'>
+        <h1 className='text-4xl text-center font-semibold'>Our Recent Works</h1>
+        <div className='text-center mt-10 mx-auto h-auto'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-7 mx-auto'>
+                <WorkCard photo={i}/>
+                <WorkCard photo={j}/>
+                <WorkCard photo={k}/>
+                <WorkCard photo={l}/>
                 <WorkCard photo={a}/>
                 <WorkCard photo={b}/>
                 <WorkCard photo={c}/>
@@ -29,10 +33,6 @@ const Works = () => {
                 <WorkCard photo={f}/>
                 <WorkCard photo={g}/>
                 {/* <WorkCard photo={h}/> */}
-                <WorkCard photo={i}/>
-                <WorkCard photo={j}/>
-                <WorkCard photo={k}/>
-                <WorkCard photo={l}/>
             </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import Team from "./Components/Team";
 import Contact from "./Components/Contact";
 import Works from './Components/Works';
 import Videos from './Components/Videos';
+import ImageSlider from './Components/ImageSlider';
 // import Loader from "./Components/Loader"
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Works/>
         <Team/>
         <Contact/>
+        {/* <ImageSlider/> */}
     </div>
   );
 }
